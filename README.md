@@ -38,3 +38,45 @@ que feio que deixa ele como link direcionando para tela inicial meio que como um
 
 **quinta linha eu defino o nome do aluno como foi pedido na questão 
 ele exibe na tela o nome que foi digitado dentro do div e deixa ele centralizado na cor preta como foi definido no começo do codigo.**
+
+
+# React component
+Nossa aplicação precisa de um menu atraente! Aqui está como criamos um componente **Menu** dinâmico com React.
+
+---
+## Importações
+Para começar, importamos três amigos importantes:
+
+1. **React**: Para criar componentes e usar JSX.
+2. **useState**: Para gerenciar dados dinâmicos.
+3. **Media (reactstrap)**: Para layouts responsivos.
+
+---
+
+## Definição do Componente
+
+Criamos uma função chamada **Menu**. Aqui, definimos dados e lógica para exibir pratos.
+
+---
+
+## Armazenamento dos Dados
+
+Usamos **useState** para criar uma lista de pratos. Cada prato é um objeto com detalhes como nome, imagem e preço.
+
+---
+
+## Criação da Lista de Itens
+
+Utilizamos o método **map** para transformar cada prato em um bloco visual. A imagem fica à esquerda, e o texto aparece à direita!
+
+---
+
+## Exibição na Tela
+
+Organizamos os pratos em um contêiner principal usando **Bootstrap**. O **Media** garante um layout limpo e responsivo.
+
+---
+
+## Exportação do Componente
+
+Finalmente, exportamos o **Menu** para ser usado em outras partes do projeto. para pode utilizar no github e atualizar nossos projetos.
